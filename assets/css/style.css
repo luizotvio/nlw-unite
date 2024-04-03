@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+:root {
+    --color-: #000;
+    --color-light: #ffffff10;
+    --color-orange: #F48F56;
+    --color-gray: #C4C4CC
+}
+
+body {
+    background-color: black;
+    color: #fff;
+}
+
+header, main, section {
+    width: 100%;
+}
+header {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0
+}
+
+.largura-padrao {
+    min-width: 1024px;
+}
+
+main {
+    min-height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding: 25px 0;
+    border-top: 1px solid var(--light-color);
+    border-bottom: 1px solid var(--light-color);
+}
+
+.card-form fieldset {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    width: 100%;
+}
+
+.card-form fieldset legend {
+    font-weight: bold;
+    margin-bottom: 20px;
+    /* font-size: 16px; */
+}
+
+.input-style {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--color-light);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.input-style input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    color: var(--color-gray);
+}
+
+
+.card-form button {
+    background-color: var(--color-orange);
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, td {
+    text-align: left;
+    padding: 20px;
+}
+
+table td {
+    font-size: 13px;
+    color: var(--color-gray);
+}
+
+table tr {
+    border: 1px solid var(--color-light);
+}
+
+table strong {
+    font-size: 14px;
+}
+
+table small {
+    font-size: 12px;
+    color: var(--color-gray)
+}
+
