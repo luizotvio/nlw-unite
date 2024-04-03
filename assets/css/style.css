@@ -12,7 +12,8 @@
     --color-: #000;
     --color-light: #ffffff10;
     --color-orange: #F48F56;
-    --color-gray: #C4C4CC
+    --color-gray: #C4C4CC;
+    --color-light-green: #9FF9CC;
 }
 
 body {
@@ -111,12 +112,20 @@ table tr {
     border: 1px solid var(--color-light);
 }
 
-table strong {
+tbody td strong {
     font-size: 14px;
 }
 
-table small {
+tbody td small {
     font-size: 12px;
     color: var(--color-gray)
 }
 
+tbody td button {
+    all: unset;
+    color: var(--color-light-green);
+}
+
+tbody td button:hover {
+    cursor: pointer;
+}
