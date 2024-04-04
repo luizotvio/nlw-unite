@@ -92,10 +92,15 @@ form {
     cursor: pointer;
 }
 
+.container-table > div {
+    border: 1px solid var(--color-light);
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
 }
 
 table th, td {
@@ -106,10 +111,7 @@ table th, td {
 table td {
     font-size: 13px;
     color: var(--color-gray);
-}
-
-table tr {
-    border: 1px solid var(--color-light);
+    border-top: 1px solid var(--color-light);
 }
 
 tbody td strong {
